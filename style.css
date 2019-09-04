@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	/*padding: 0;*/
+	box-sizing: border-box;
+}
+
+.menu-container {
+	color: #fff;
+	background-color: #5995DA;
+	padding: 20px 0;
+	display: flex;
+	justify-content: center;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.menu {
+/*	border: 1px solid #fff343;*/
+	width: 900px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.links {
+	/*border: 1px solid #fff;*/
+	display: flex;
+	justify-content: flex-end;
+}
+
+.login {
+	margin-left: 20px;
+}
+
+.container {
+	height: 75vh;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: row;
+	/*border: 1px solid #fff;*/
+}
+
+.title {
+	/*border: 1px solid #fff;*/
+	font-family: 'Lora', serif;
+	color: white;
+	font-size: 4em;
+	transition: 2s ease-in-out;
+	padding-left: 10px;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	/*border: 1px solid #fff;*/
+
+}
+
+.CTA {
+	border: none;
+	background-color: orange;
+	/*margin-left: 650px;*/
+	padding: 15px 32px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+body {
+	background-image: url('black-and-white-black-and-white-facial-hair.jpg');
+	background-size: 960px 1438px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #000000;
+}
